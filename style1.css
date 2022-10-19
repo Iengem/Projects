@@ -179,7 +179,10 @@ select{
     padding: 10px;
 }
 #select1{
-    margin-left: 30px;
+    margin-left: 18px;
+}
+.arrow{
+    position: absolute;
 }
 .bmid{
     width: 100vw;
