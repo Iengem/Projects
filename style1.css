@@ -44,7 +44,8 @@ body{
 .partner ul{
     display: flex;
     list-style-type: none;  
-    gap: 30px;
+    gap: 5px;
+    padding-top: 2px;
 }
 .partner ul li{
     padding:0px 20px 0px 0px;
@@ -52,14 +53,17 @@ body{
 .partner ul li a{
     color:rgb(46,184,117);
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
+    font-family: 'euclid1';
+    font-size: 14px;
 }
 .partner{
-    margin-left: 450px;
+    margin-left: 550px;
 }
 .pa{
-    font-weight: 100;
+    font-weight: 400;
     color:grey;
+    font-size: 14px;
 }
 .partner ul{
     font-size: 15px;
@@ -72,7 +76,7 @@ ul li ul li{
     float: left;
     width: 150px;
     height: 50px;
-    margin-top: 11px;
+    margin-top: 14px;
 }
 .btop ul{
     list-style-type: none;
@@ -80,9 +84,8 @@ ul li ul li{
 .btop ul li a{
     text-decoration: none;
     color: #2F313F;
-    font-size: 15px;
-    margin-left: 14px;
-    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
     background-color: none;
 }
 .btop ul li:hover{
@@ -91,11 +94,12 @@ ul li ul li{
 select{
     border: none;
     color: #2F313F;
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 .btop{ 
     display: flex;
-    gap: 50px;
+    gap: 25px;
     margin-left: 60px;
     height: 9vh;
 }
@@ -107,12 +111,13 @@ select{
 }
 #select2{
     position: relative;
-    top:1px;
+    top:2px;
     left: 50px;
 }
 .select3{
     position: relative;
     left: 55px;
+    top: 12px;
 }
 .img{
     background-color: rgb(46,184,117);
@@ -124,10 +129,9 @@ select{
     font-size: 72px;
     position: relative;
     left: 60px;
-    top: 100px;
+    top: 150px;
     margin-bottom: 40px;
-    font-weight: bold;
-    line-height: 90px;
+    line-height: 80px;
     font-family: 'euclid1';
 }
 .zawarldo{
@@ -136,15 +140,15 @@ select{
 .dwnld-app{
     color: white;
     position: relative;
-    top: 90px;
-    left: 60px;
-    font-size: 20px;
+    top: 145px;
+    left: 70px;
+    font-size: 18px;
 }
 .google{
-    width: 200px;
+    width: 150px;
     height: 100px;
     position: relative;
-    top: 105px;
+    top: 146px;
     left: 50px;
 }
 .req a{
@@ -152,13 +156,13 @@ select{
     color: white;
     position: relative;
     font-size: 16px;
-    top: 50px;
+    top: 55px;
 }
 .apple{
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 42px;
     position: relative;
-    top: 110px;
+    top: 148px;
     margin-bottom: 30px;
     left: 50px;
 }
@@ -166,7 +170,7 @@ select{
     color: white;
     position: absolute;
     top: 600px;
-    left: 50px;
+    left: 65px;
     font-size: 16px;
     font-weight: 600;
 }
