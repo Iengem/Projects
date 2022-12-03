@@ -211,7 +211,7 @@ a{
     @media screen and (max-width:480px){
         .iphone14pro img{
             height: 80%;
-            width:50%;
+            width:100%;
         }
     }
 }
