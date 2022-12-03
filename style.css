@@ -1,0 +1,217 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@font-face {
+    font-family: 'Apple font';
+    src: url(images/fonts/SF-Pro-Text-Regular.otf) format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Apple font';
+}
+nav{
+    background-color: rgb(50,50,50);
+    height: 6.6vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    position: sticky;
+    top: 0;
+    padding: 0px 125px;
+}
+nav a{
+    color: rgb(199, 198, 198);
+    font-size: 12px;
+}
+nav a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.heropic{
+    height: 100%;
+}
+.hero{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.headers{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headers h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.headers h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+.headers a{
+    font-size: 22px;
+    font-weight: 600;
+}
+.iphone14pro{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 40px;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.iphone14pro img{
+    height: 70%;
+    width: 30%;
+}
+.itext{
+    color: white;
+}
+.iphone14{
+    width: 100%;
+    padding-top: 150px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    overflow: hidden;
+}
+.twohands img{
+    width: 30%;
+    height: 130%;
+}
+.twohands{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.devices{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 10px;
+    height: 100vh;
+}
+.card:nth-child(1){
+    background-image: url(images/ipadpro.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.card:nth-child(2){
+    background-image: url(https://www.apple.com/v/home/au/images/promos/macbook-air/promo_macbookair__fywl7i82fueu_medium.png);
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.card:nth-child(3){
+    background-image: url(https://www.apple.com/v/home/au/images/promos/macbook-pro-13/promo_mbp13__buwssod6c8vm_medium.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.card:nth-child(2) h1, .card:nth-child(2) h2{
+    color: black;
+}
+.m2{
+    width: 30px;
+    height: 100%;
+}
+.card h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.header a{
+    font-size: 20px;
+}
+.header h1{
+    font-weight: 900;
+    font-size: 36px;
+}
+.card h1,.card h2{
+    color: white;
+    text-align: center;
+}
+@media  screen and (max-width:1280px) {
+    nav{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:1200px){
+    .devices{
+        grid-template-columns: repeat(auto-fit,minmax(480px, 1fr));
+    }
+    @media screen and (max-width:1000px) {
+        .devices{
+            padding: 0px;
+        }
+    }
+    @media screen and (max-width:833px){
+        .hero{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+        .devices{
+            padding: 0px;
+        }
+        .hero h1{
+            font-size: 30px;
+        }
+        .hero h2{
+            font-size: 20px;
+        }
+        .twohands img{
+            width: 100%;
+        }
+        .hero a{
+            font-size: 16px;
+        }
+        .heropic{
+            height: 70%;
+        }
+    }
+    @media screen and (max-width:480px){
+        .iphone14pro img{
+            height: 80%;
+            width:40%;
+        }
+    }
+}
